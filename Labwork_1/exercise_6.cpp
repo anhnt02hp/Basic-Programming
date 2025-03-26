@@ -10,7 +10,7 @@ int main() {
 
     //define expression f
     float f;
-    f = 3 * a  - pow(b, 3) - 2 * sqrt(c);
+    f = 3 * a  - (float)pow(b, 3) - 2 * (float)sqrt(c);
 
     //calculate output f
     cout << "f = " << f << endl;
